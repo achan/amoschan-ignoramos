@@ -1,6 +1,7 @@
 ---
 title: Amos Chan, Software Developer.
 timestamp: 2014-08-02T22:56:49-04:00
+permalink: about.html
 ---
 
 Hi, my name is **Amos Chan**. I'm a software developer specializing in
@@ -16,7 +17,7 @@ projects][sp].
  - github - [achan][gh-achan] |
    [EOLed Projects][gh-eol]
  - bitbucket - [achan][bb]
- - twitter - [@amosfreakinchan][t]
+ - twitter - [@amoschan][t]
  - [linkedin][li]
 
 [gh-achan]: http://github.com/achan
