@@ -1,3 +1,17 @@
-<div class="container">
-{{post.html}}
+<div class="container post">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      <h2 class="post-title">
+        <a class="permalink" href="{{post.permalink}}">{{post.title}}</a>
+      </h2>
+    </div>
+  </div>
+  <div class="row content">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      {{post.html}}
+    </div>
+  </div>
+  <div class="post-footer">
+    <i class="fa fa-certificate icon-2x"></i>
+  </div>
 </div>

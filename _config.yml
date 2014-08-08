@@ -1,0 +1,16 @@
+site:
+  name: amoschan.com
+  tagline: Software developer in Montreal, Quebec
+  site_map: >
+    [Tags][t] · [About][a] · [Commits][c]
+
+    [t]: /tags.html
+
+    [a]: /about.html
+
+    [c]: /commits.html
+  description: >
+    I write code for [@varagesale][vs] and obsess over TDD, mobile and web
+    development.
+
+    [vs]: http://varagesale.com

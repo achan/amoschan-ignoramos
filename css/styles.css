@@ -11,9 +11,17 @@ strong, h2 a, h1, h2, h3, h4, h5, h6 {
 }
 
 #site-name {
-  font-weight: 700;
+  font-weight: 100;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 48px;
+}
+
+#site-name a {
+  font-weight: 300;
+}
+
+nav#header #site-name a:hover {
+  color: #3C3D3C;
 }
 
 #site-name span:hover::after {
@@ -77,4 +85,8 @@ footer {
 
 .site-map {
   font-size: 16px;
+}
+
+.site-map p {
+  margin: 0
 }

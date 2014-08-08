@@ -4,12 +4,11 @@ timestamp: 2014-08-02T22:56:49-04:00
 permalink: about.html
 ---
 
-Hi, my name is **Amos Chan**. I'm a software developer specializing in
-enterprise Java web applications for my 9-5, but by night I like to dive into
-the wild, dynamically-typed world of programming for [my side
-projects][sp].
+Hi, my name is **Amos Chan**. I'm a web developer at [VarageSale][vs], primarily
+focusing on their desktop and mobile web offerings. On my spare time, I like to
+build native mobile applications for iOS and Android.
 
-[sp]: http://github.com/achan
+[vs]: http://varagesale.com
 
 <img src="http://graph.facebook.com/amoschan/picture?type=large" style="float: right" />
 
@@ -26,12 +25,15 @@ projects][sp].
 [t]: http://twitter.com/amoschan
 [li]: http://www.linkedin.com/in/amoschan
 
-## Notable Side Projects
+## Current Projects
 
 ### [Ignoramos][i]
-A blogging engine that offers pages, posts, tags and twitter syndication.
+The static-site generator that powers this site. Built with Ruby and [Liquid templates][l].
 
 [i]: http://github.com/achan/ignoramos
+[l]: http://liquidmarkup.org
+
+## Past Projects
 
 ### [Snooby: A Blackberry 10 Reddit Client][s-gh]
 [Snooby][s-post] is the first Blackberry 10 Reddit Client available on the
@@ -40,12 +42,6 @@ A blogging engine that offers pages, posts, tags and twitter syndication.
 [s-gh]: http://github.com/eoled/snooby
 [s-post]: http://amos.pw/2013/02/20/introducing-snooby-a-blackberry-10-reddit-client
 [s-bb]: http://appworld.blackberry.com/webstore/content/23060906
-
-### [Expressive: The ExpressJS Blogging Engine][x]
-A minimal blogging engine running on ExpressJS.
-`npm install expressive && expressive` * and you're good to go!
-
-[x]: http://github.com/achan/expressivejs
 
 ### [Did Gomez Score Last Game?][d]
 A light-hearted website [built with Node.js and Redis][d-gh] with the
@@ -64,5 +60,3 @@ Android app.
 [a]: http://github.com/achan/android-reddit
 [r-api]: http://www.reddit.com/dev/api
 [rflow]: https://play.google.com/store/apps/details?id=com.deeptrouble.yaarreddit
-
-\* soon :)
