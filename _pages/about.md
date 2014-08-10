@@ -1,7 +1,7 @@
 ---
 title: Amos Chan, Software Developer.
 timestamp: 2014-08-02T22:56:49-04:00
-permalink: about.html
+permalink: about
 ---
 
 Hi, my name is **Amos Chan**. I'm a web developer at [VarageSale][vs], primarily
@@ -12,7 +12,7 @@ build native mobile applications for iOS and Android.
 
 <img src="http://graph.facebook.com/amoschan/picture?type=large" style="float: right" />
 
-## Social
+### Social
  - github - [achan][gh-achan] |
    [EOLed Projects][gh-eol]
  - bitbucket - [achan][bb]
@@ -25,17 +25,17 @@ build native mobile applications for iOS and Android.
 [t]: http://twitter.com/amoschan
 [li]: http://www.linkedin.com/in/amoschan
 
-## Current Projects
+### Current Projects
 
-### [Ignoramos][i]
+#### [Ignoramos][i]
 The static-site generator that powers this site. Built with Ruby and [Liquid templates][l].
 
 [i]: http://github.com/achan/ignoramos
 [l]: http://liquidmarkup.org
 
-## Past Projects
+### Past Projects
 
-### [Snooby: A Blackberry 10 Reddit Client][s-gh]
+#### [Snooby: A Blackberry 10 Reddit Client][s-gh]
 [Snooby][s-post] is the first Blackberry 10 Reddit Client available on the
 [Blackberry App World][s-bb] that is not an Android port.
 
@@ -43,7 +43,7 @@ The static-site generator that powers this site. Built with Ruby and [Liquid tem
 [s-post]: http://amos.pw/2013/02/20/introducing-snooby-a-blackberry-10-reddit-client
 [s-bb]: http://appworld.blackberry.com/webstore/content/23060906
 
-### [Did Gomez Score Last Game?][d]
+#### [Did Gomez Score Last Game?][d]
 A light-hearted website [built with Node.js and Redis][d-gh] with the
 intentions of withstanding [viral traffic][d-y] with minimal downtime.
 
@@ -51,7 +51,7 @@ intentions of withstanding [viral traffic][d-y] with minimal downtime.
 [d-gh]: http://github.com/eoled/didgomezscore
 [d-y]: http://sports.yahoo.com/blogs/nhl-puck-daddy/congratulations-canadiens-scott-gomez-one-anniversary-last-goal-211326566.html
 
-### [android-reddit][a]
+#### [android-reddit][a]
 An Android library wrapping Reddit's [publicly available REST API][r-api]. This
 library will parse Reddit's JSON responses into Java objects like `Subreddit`,
 `Link`, `Comment`, etc. Currently used by the up and coming [Reddit Flow][rflow]
