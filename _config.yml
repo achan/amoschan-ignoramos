@@ -1,6 +1,7 @@
 site:
   name: amoschan.com
   tagline: Software developer in Montreal, Quebec
+  user: Amos Chan
   site_map: >
     [Tags][t] · [About][a] · [Commits][c]
 
