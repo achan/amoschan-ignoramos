@@ -118,3 +118,30 @@ footer {
 .post-header .metadata a:hover {
   color: #D82F4E;
 }
+
+ul.tag-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.posts {
+  list-style-type: none;
+}
+
+li.post:before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  margin:0 5px 0 -15px;
+}
+
+li.post a {
+  font-weight: 300;
+}
+
+li.tag {
+  margin-bottom: 15px;
+}
+
+h1.title {
+  margin-bottom: 30px;
+}
