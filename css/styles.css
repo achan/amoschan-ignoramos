@@ -180,3 +180,24 @@ h1.title {
   text-decoration: none;
 }
 
+@media (max-width: 750px) {
+  #site-name {
+    font-size: 36px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
