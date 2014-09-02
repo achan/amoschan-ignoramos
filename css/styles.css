@@ -20,6 +20,10 @@ strong, h2 a, h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+.page-title {
+  margin-bottom: 20px;
+}
+
 nav#header #site-name a:hover {
   color: #3C3D3C;
 }
@@ -145,3 +149,34 @@ li.tag {
 h1.title {
   margin-bottom: 30px;
 }
+
+.commit-stream ul.commits {
+  margin-left: 0;
+  padding: 0 5px;
+  list-style-type: none;
+}
+
+.commit-stream .event {
+  margin-bottom: 20px;
+}
+
+.commit-stream .timestamp {
+  color: #3C3D3C;
+  font-size: 14px;
+}
+
+.commit-stream .commit {
+  font-size: 14px
+}
+
+.commit-stream a.sha {
+  font-family: monospace;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.commit-stream a.sha:hover {
+  text-decoration: none;
+}
+
