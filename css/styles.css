@@ -180,6 +180,10 @@ h1.title {
   text-decoration: none;
 }
 
+code, pre {
+  font-size: 70%;
+}
+
 @media (max-width: 750px) {
   #site-name {
     font-size: 36px;
