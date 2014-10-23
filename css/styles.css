@@ -184,6 +184,11 @@ code, pre {
   font-size: 70%;
 }
 
+a.title-link.link_post::after {
+  content: ' →';
+  color: #eee;
+}
+
 @media (max-width: 750px) {
   #site-name {
     font-size: 36px;
