@@ -201,6 +201,11 @@ a.title-link.link_post::after {
   padding-top: 0;
 }
 
+.tag date {
+  font-size: smaller;
+  color: #A1A3A1;
+}
+
 @media (max-width: 750px) {
   #site-name {
     font-size: 36px;

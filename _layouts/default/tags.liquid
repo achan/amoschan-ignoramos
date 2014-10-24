@@ -13,6 +13,7 @@
               {% for post in tag.posts %}
                 <li class="post {{ post.slug }}">
                   <a href="{{ post.permalink }}">{{ post.title }}</a>
+                  <date>{{ post.timestamp }}</date>
                 </li>
               {% endfor %}
             </ul>
