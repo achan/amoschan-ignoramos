@@ -2,6 +2,7 @@
 title: My Standing Desk, Part 1 - Choosing a prototype
 tags: workfromhome, standingdesk
 timestamp: 2014-10-23T22:21:00-04:00
+permalink: standing-desk-pt1
 ---
 
 Knowing that I'd be working from home full-time for the next little while, the
@@ -14,10 +15,10 @@ standing desk as my day-to-day desk.
 
 I had a couple requirements:
 
- - It must be adjustable: Standing desks are expensive and if I realize that
-   standing desks are not for me, I want to at least be able to revert back a
-   "regular" desk.
- - It must be wide: I have a 3-monitor setup at work that I'm not willing to
+ - **It must be adjustable**: Standing desks are expensive and if I realize
+   that standing desks are not for me, I want to at least be able to revert back
+   a "regular" desk.
+ - **It must be wide**: I have a 3-monitor setup at work that I'm not willing to
    give up, so whatever desk I choose must be able to fit all three.
 
 A quick browse around the net and I quickly realized I had at least one more
@@ -84,6 +85,6 @@ A couple examples I found were:
 
 In the end, I chose to build my standing desk similar to Rico's from
 [MidnightCodr][mc]. I'll talk about why and my slight modifications in Part
-2...
+2... Stay tuned!
 
 [mc]: http://midnightcodr.github.io/blog/2014/03/23/i-just-built-my-first-standing-desk/

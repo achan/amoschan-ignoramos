@@ -206,6 +206,10 @@ a.title-link.link_post::after {
   color: #A1A3A1;
 }
 
+img.full {
+  width: 100%
+}
+
 @media (max-width: 750px) {
   #site-name {
     font-size: 36px;
