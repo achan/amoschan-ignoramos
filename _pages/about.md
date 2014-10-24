@@ -12,6 +12,7 @@ build native mobile applications for iOS and Android.
 
 <img src="http://graph.facebook.com/amoschan/picture?type=large" style="float: right" />
 
+<section class="social">
 ### Social
  - github - [achan][gh-achan] |
    [EOLed Projects][gh-eol]
@@ -24,7 +25,8 @@ build native mobile applications for iOS and Android.
 [bb]: http://bitbucket.org/achan
 [t]: http://twitter.com/amoschan
 [li]: http://www.linkedin.com/in/amoschan
-
+</section>
+<section class="current-projects">
 ### Current Projects
 
 #### [Ignoramos][i]
@@ -32,7 +34,8 @@ The static-site generator that powers this site. Built with Ruby and [Liquid tem
 
 [i]: http://github.com/achan/ignoramos
 [l]: http://liquidmarkup.org
-
+</section>
+<section class="past-projects">
 ### Past Projects
 
 #### [Snooby: A Blackberry 10 Reddit Client][s-gh]
@@ -60,3 +63,4 @@ Android app.
 [a]: http://github.com/achan/android-reddit
 [r-api]: http://www.reddit.com/dev/api
 [rflow]: https://play.google.com/store/apps/details?id=com.deeptrouble.yaarreddit
+</section>

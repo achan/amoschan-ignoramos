@@ -189,6 +189,18 @@ a.title-link.link_post::after {
   color: #eee;
 }
 
+.amos-chan-software-developer section {
+  padding: 10px 0;
+}
+
+.amos-chan-software-developer section h4 {
+  padding-top: 20px;
+}
+
+.amos-chan-software-developer section h4:first-of-type {
+  padding-top: 0;
+}
+
 @media (max-width: 750px) {
   #site-name {
     font-size: 36px;
