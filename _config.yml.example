@@ -15,3 +15,6 @@ site:
     development.
 
     [vs]: http://varagesale.com
+twitter:
+  access_token: <your token>
+  access_token_secret: <your token secret>

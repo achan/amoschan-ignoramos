@@ -210,6 +210,10 @@ img.full {
   width: 100%
 }
 
+.tweet {
+  text-align: center;
+}
+
 @media (max-width: 750px) {
   #site-name {
     font-size: 36px;
