@@ -1,7 +1,8 @@
 ---
-title: Reddit Comments for 2014/10/23
+title: "Introducing #redditcomments"
 tags: redditcomments
 timestamp: 2014-10-23T20:12:00-04:00
+permalink: reddit-comments-for-20141023
 ---
 
 If you're anything like me, [reddit][reddit] is more interesting for its
