@@ -28,9 +28,9 @@ to lose all that data if Twitter (or Facebook. or Ello.) were to shut down.
 [i]: https://github.com/achan/ignoramos
 [ci]: http://www.coreint.org/2014/10/episode-158-the-timeline-experience/
 
-Part of the cost of owning my own identity, is communicating to all these
-social networks via my own platform so that I can archive them before they're
-sent over to them.
+Part of the cost of owning my own identity is communicating to all these social
+networks via my own platform so that I can archive them before they're
+published on other networks.
 
 With the latest version of Ignoramos, I can now tweet with the command:
 
@@ -39,7 +39,7 @@ $ ignoramos tweet "hello world!"
 ```
 
 It would then post to Twitter and simultaneously create a micropost on my blog
-with all the Twitter metadata stored in it. This gives me the option of
-participating in the social networks that all my friends are on and owning the
-data at the same time. If Twitter were to go away, or no longer be the dominant
-microblogging platform, all **my** microposts would still exist on my blog.
+with all the Twitter metadata stored in it. This allows me to participate in
+the social networks that all my friends are on and own the data at the same
+time. If Twitter were to go away, or no longer be the dominant microblogging
+platform, all **my** microposts would still exist on my blog.
