@@ -1,7 +1,7 @@
 ---
 title: Owning your tweets
 timestamp: 2014-10-26T00:35:09-04:00
-tags: ignoramos, twitter
+tags: ignoramos, twitter, braaands
 ---
 
 If you're already using a static site generator, I don't think I need to
