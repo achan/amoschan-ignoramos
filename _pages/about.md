@@ -4,9 +4,9 @@ timestamp: 2014-08-02T22:56:49-04:00
 permalink: about
 ---
 
-Hi, my name is **Amos Chan**. I'm a web developer at [VarageSale][vs], primarily
-focusing on their desktop and mobile web offerings. On my spare time, I like to
-build native mobile applications for iOS and Android.
+Hi, my name is **Amos Chan**. I'm a web developer at [VarageSale][vs],
+primarily focusing on their desktop and mobile web offerings. On my spare time,
+I like to build native mobile applications for iOS and Android.
 
 [vs]: http://varagesale.com
 
