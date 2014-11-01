@@ -1,5 +1,5 @@
 ---
-title: Amos Chan, Software Developer.
+title: Amos Chan, Software Developer
 timestamp: 2014-08-02T22:56:49-04:00
 permalink: about
 ---
