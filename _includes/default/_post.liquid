@@ -1,25 +1,27 @@
-<div class="container post {{ post.slug }}">
-  <div class="row post-header">
+<div class="container">
+  <div class="row">
     <div class="col-sm-12 col-md-8 col-md-offset-2">
-      <h2 class="post-title">
-        <a class="title-link {{post.post_type}}" href="{{post.title_link}}">{{post.title}}</a>
-      </h2>
-      <div class="metadata">
-        <date>{{ post.timestamp }}</date> ·
-        <i class="fa fa-tag"></i>
-        {% for tag in post.tags %}
-          <a class="tag" href="/tags/{{ tag }}.html">#{{ tag }}</a>
-        {% endfor %}
-        · <a href="{{ post.permalink }}"><i class="fa fa-bookmark"></i></a>
-      </div>
+      <article class="post {{ post.slug }}">
+        <header>
+          <h1 class="post-title">
+            <a class="title-link {{post.post_type}}" href="{{post.title_link}}">{{post.title}}</a>
+          </h1>
+          <p class="metadata">
+            <date>{{ post.timestamp }}</date> ·
+            <i class="fa fa-tag"></i>
+            {% for tag in post.tags %}
+              <a class="tag" href="/tags/{{ tag }}.html">#{{ tag }}</a>
+            {% endfor %}
+            · <a href="{{ post.permalink }}"><i class="fa fa-bookmark"></i></a>
+          </p>
+        </header>
+
+        {{post.html}}
+
+        <footer>
+          <i class="fa fa-certificate icon-2x"></i>
+        </footer>
+      </article>
     </div>
-  </div>
-  <div class="row content">
-    <div class="col-sm-12 col-md-8 col-md-offset-2">
-      {{post.html}}
-    </div>
-  </div>
-  <div class="post-footer">
-    <i class="fa fa-certificate icon-2x"></i>
   </div>
 </div>
