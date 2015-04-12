@@ -21,9 +21,9 @@
               </div>
               <div id="site-description" class="row">
                 <div class="col-sm-12">
-                  {{ site.description }}
+                  {{ site.description | markdownToHtml }}
                   <div class="site-map">
-                    {{ site.site_map }}
+                    {{ site.site_map | markdownToHtml }}
                   </div>
                   <div id="related-links">
                     <a href="http://github.com/achan"><i class="fa fa-github-alt"></i></a>
