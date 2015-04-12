@@ -1,14 +1,16 @@
-<div class="container tweet {{ post.slug }}">
-  <div class="row content">
+<div class="container">
+  <div class="row">
     <div class="col-sm-12 col-md-8 col-md-offset-2">
-      <blockquote class="twitter-tweet" lang="en" align="center">
-        <p>{{ post.html }}</p>
-        <a href="{{ post.tweet }}">{{ post.timestamp }}</a>
-      </blockquote>
+      <article class="tweet {{ post.slug }}">
+        <blockquote class="twitter-tweet" lang="en" align="center">
+          {{ post.html }}
+          <a href="{{ post.tweet }}">{{ post.timestamp }}</a>
+        </blockquote>
+        <footer>
+          <i class="fa fa-certificate icon-2x"></i>
+        </footer>
+      </article>
     </div>
-  </div>
-  <div class="post-footer">
-    <i class="fa fa-certificate icon-2x"></i>
   </div>
 </div>
 

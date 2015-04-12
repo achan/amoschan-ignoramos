@@ -1,17 +1,19 @@
-<div class="container page {{page.slug}}">
+<div class="container">
   <div class="row">
     <div class="col-sm-12 col-md-8 col-md-offset-2">
-      <h2 class="page-title">
-        <a class="permalink" href="{{page.permalink}}">{{page.title}}</a> 
-      </h2>
+      <article class="page {{ page.slug }}">
+        <header>
+          <h1>
+            <a class="permalink" href="{{page.permalink}}">{{page.title}}</a>
+          </h1>
+        </header>
+
+        {{page.html}}
+
+        <footer>
+          <i class="fa fa-certificate icon-2x"></i>
+        </footer>
+      </article>
     </div>
-  </div>
-  <div class="row content">
-    <div class="col-sm-12 col-md-8 col-md-offset-2">
-      {{page.html}}
-    </div>
-  </div>
-  <div class="container post-footer">
-    <i class="fa fa-certificate icon-2x"></i>
   </div>
 </div>

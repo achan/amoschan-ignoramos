@@ -5,9 +5,13 @@ body {
   font-size: 18px;
 }
 
-strong, h2 a, h1, h2, h3, h4, h5, h6 {
+strong, h1 a, h2 a, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #555655;
+}
+
+article header h1 {
+  font-size: 30px;
 }
 
 #site-name {
@@ -84,7 +88,8 @@ footer {
   margin: 80px 0 20px 0;
 }
 
-.post-footer {
+article footer {
+  font-size: inherit;
   margin: 100px 0;
   text-align: center;
   color: #ececec;
@@ -111,15 +116,15 @@ footer {
   font-size: 14px;
 }
 
-.post-header {
+article header {
   margin-bottom: 20px;
 }
 
-.post-header .metadata, .post-header .metadata a {
+article header .metadata, article header .metadata a {
   color: #a1a3a1;
 }
 
-.post-header .metadata a:hover {
+article header .metadata a:hover {
   color: #D82F4E;
 }
 
@@ -227,7 +232,7 @@ img.full {
     font-size: 30px;
   }
 
-  h2 {
+  article header h1 {
     font-size: 22px;
   }
 
