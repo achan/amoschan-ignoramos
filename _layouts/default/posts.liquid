@@ -2,9 +2,9 @@
 
 {% for post in posts %}
   {% if post.layout == 'tweet' %}
-    {% include 'tweet/post' %}
+    {% include 'tweet/post' with post %}
   {% else %}
-    {% include 'default/post' %}
+    {% include 'default/post' with post %}
   {% endif %}
 {% endfor %}
 
