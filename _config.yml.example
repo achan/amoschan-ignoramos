@@ -16,6 +16,3 @@ site:
 
     [vs]: http://varagesale.com
   post_limit: 8
-twitter:
-  access_token: <your token>
-  access_token_secret: <your token secret>
