@@ -4,16 +4,23 @@ timestamp: 2014-08-02T22:56:49-04:00
 permalink: about
 ---
 
-Hi, my name is **Amos Chan**. I'm a web developer at [VarageSale][vs],
-primarily focusing on their desktop and mobile web offerings. On my spare time,
-I like to build native mobile applications for iOS and Android.
+Hi, my name is **Amos Chan**. I'm a developer at [VarageSale][vs], primarily
+focusing on their iOS application.
+
+I strive for short feedback loops (minimum viable product and short
+iterations). I believe in the initial investment of test-driven development for
+a better long-term maintainability of code.
+
+I specialize in full-stack application development: Native iOS development in
+Swift, rich client side development with JavaScript (AngularJS/Ember/jQuery)
+and server side development with Java, Ruby and Node... using high code
+coverage as a tool to improve code quality iteratively. 
 
 [vs]: http://varagesale.com
 
 ### Social
- - github - [achan][gh-achan] |
+ - github - [@achan][gh-achan] |
    [EOLed Projects][gh-eol]
- - bitbucket - [achan][bb]
  - twitter - [@amoschan][t]
  - [linkedin][li]
 
@@ -22,39 +29,3 @@ I like to build native mobile applications for iOS and Android.
 [bb]: http://bitbucket.org/achan
 [t]: http://twitter.com/amoschan
 [li]: http://www.linkedin.com/in/amoschan
-
-### Current Projects
-
-#### [Ignoramos][i]
-The static-site generator that powers this site. Built with Ruby and [Liquid templates][l].
-
-[i]: http://github.com/achan/ignoramos
-[l]: http://liquidmarkup.org
-
-### Past Projects
-
-#### [Snooby: A Blackberry 10 Reddit Client][s-gh]
-[Snooby][s-post] is the first Blackberry 10 Reddit Client available on the
-[Blackberry App World][s-bb] that is not an Android port.
-
-[s-gh]: http://github.com/eoled/snooby
-[s-post]: http://amos.pw/2013/02/20/introducing-snooby-a-blackberry-10-reddit-client
-[s-bb]: http://appworld.blackberry.com/webstore/content/23060906
-
-#### [Did Gomez Score Last Game?][d]
-A light-hearted website [built with Node.js and Redis][d-gh] with the
-intentions of withstanding [viral traffic][d-y] with minimal downtime.
-
-[d]: http://didgomezscore.com
-[d-gh]: http://github.com/eoled/didgomezscore
-[d-y]: http://sports.yahoo.com/blogs/nhl-puck-daddy/congratulations-canadiens-scott-gomez-one-anniversary-last-goal-211326566.html
-
-#### [android-reddit][a]
-An Android library wrapping Reddit's [publicly available REST API][r-api]. This
-library will parse Reddit's JSON responses into Java objects like `Subreddit`,
-`Link`, `Comment`, etc. Currently used by the up and coming [Reddit Flow][rflow]
-Android app.
-
-[a]: http://github.com/achan/android-reddit
-[r-api]: http://www.reddit.com/dev/api
-[rflow]: https://play.google.com/store/apps/details?id=com.deeptrouble.yaarreddit
